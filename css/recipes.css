@@ -1,0 +1,32 @@
+*{
+    background-color: rgb(255, 228, 196);
+    color: rgb(85, 78, 69);;
+}
+
+h1{
+    text-align: center;
+    color:rgb(139, 69, 19);
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+}
+
+h2{
+    color: rgb(140, 80, 37);
+}
+
+a{
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+button{
+    display: block;
+    width: 100px;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 30px;
+    margin: 20px auto;
+}
