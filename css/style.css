@@ -75,6 +75,52 @@ a{
     font-size: 18px;
     color: #E5E7EB;
 }
+
+/* Recipe section */
+.recipe-container{
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.recipe{
+    /* border: 1px solid gray; */
+    width: 60%;
+}
+
+.recipe-heading{
+    color: #526c3f;
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.card-container{
+    /* border: 1px solid gray; */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card{
+    /* border: 1px solid gray; */
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card-img img{
+    border-radius: 10px;
+}
+
+.card-subtext{
+    font-size: 18px;
+    color: #212529;
+    text-align: center;
+}
 /* *{
     text-align: center;
     background-color: rgb(255, 228, 196);
