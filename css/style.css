@@ -69,6 +69,7 @@ a{
     color: #F9FAF8;
     font-size: 48px;
     font-weight: 900;
+    margin-bottom: 8px;
 }
 
 .hero-subheading{
@@ -121,30 +122,51 @@ a{
     color: #212529;
     text-align: center;
 }
-/* *{
-    text-align: center;
-    background-color: rgb(255, 228, 196);
+
+/* Quote Section */
+.quote-container{
+    /* border: 1px solid gray; */
+    background-color: #fdf3de;
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-h1{
-    color:rgb(139, 69, 19);
-    font-size: 5rem;
-    margin-bottom: 5px;
+.quote{
+    /* border: 1px solid gray; */
+    width: 58%;
+    display: flex;
+    flex-direction: column;
 }
 
-p{
-    color:rgb(140, 80, 37);
-    font-size: 1.2rem;
-    margin-top: 0;
+.main-quote{
+    color: #212529;
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
 }
 
-ul{
-    list-style: none;
-    margin-bottom: 45px;
+.author{
+    color: #212529;
+    font-size: 18px;
+    font-weight: 800;
+    align-self: flex-end;
 }
 
-a{
-    text-decoration: none;
-    font-size: 1.3rem;
-    color: rgb(85, 78, 69);
-} */
+/* Footer */
+.footer-container{
+    background-color: #526c3f;
+    min-height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer{
+    color: #E5E7EB;
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}

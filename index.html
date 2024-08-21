@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <title>Noodle Bar</title>
         <link rel="stylesheet" href="./css/style.css">
+        <script src="https://kit.fontawesome.com/228c92da45.js" crossorigin="anonymous"></script>
     </head>
     <body>
         <!-- Header -->
@@ -14,14 +15,14 @@
                     <div class="logo-text">The Good Food</div>
                 </div>
                 <ul class="links">
-                    <li class="recipe"><a href="" class="link">Recipes</a></li>
+                    <li class="recipe"><a href="#Recipe" class="link">Recipes</a></li>
                     <li class="about"><a href="" class="link">About</a></li>
                 </ul>
             </div>
             <div class="hero">
                 <div class="left">
-                    <div class="hero-heading">The Heading</div>
-                    <div class="hero-subheading">This website has some subtext that goes here under the main title.</div>
+                    <div class="hero-heading">The Good Food</div>
+                    <div class="hero-subheading">Your Go-To Source for Easy, Tasty, and Effortlessly Delicious Recipes</div>
                 </div>
                 <div class="right">
                     <img src="./img/hero-img.png" alt="" class="hero-img" height="auto" width="400px">
@@ -30,33 +31,41 @@
         </div>
 
         <!-- Recipe -->
-        <div class="recipe-container">
+        <div class="recipe-container" id="Recipe">
             <div class="recipe">
                 <div class="recipe-heading">New Recipes</div>
                 <div class="card-container">
                     <div class="card">
                         <div class="card-img"><img src="./img/chilli-garlic.jpeg" alt="" width="200px" height="300px"></div>
-                        <div class="card-subtext">Chilli Garlic Maggi</div>
+                        <div class="card-subtext"><a href="./recipes/chilli-garlic-maggi.html" class="card-subtext">Chilli Garlic Maggi</a></div>
                     </div>
                     <div class="card">
                         <div class="card-img"><img src="./img/singaporean-hakka.jpeg" alt="" width="200px" height="300px"></div>
-                        <div class="card-subtext">Veg Singaporean Hakka Noodles</div>
+                        <div class="card-subtext"><a href="./recipes/veg-singaporean-hakka-noodles.html" class="card-subtext">Veg Singaporean Hakka Noodles</a></div>
                     </div>
                     <div class="card">
                         <div class="card-img"><img src="./img/sichuan.jpeg" alt="" width="200px" height="300px"></div>
-                        <div class="card-subtext">Spicy Sichuan Noodles</div>
+                        <div class="card-subtext"><a href="./recipes/spicy-sichuan-chicken-noodles.html" class="card-subtext">Spicy Sichuan Noodles</a></div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- <h1>Noodle Bar</h1>
-        <p>Your Ultimate Noodle Recipe Haven!<p>
-        <img src="./img/noodle-bar.jpg" alt="animated image of a delicious looking bowl of ramen" width="600px" height="auto">
 
-        <ul>
-            <li><a href="./recipes/chilli-garlic-maggi.html" target="_self">Chilli Garlic Maggi</a></li>
-            <li><a href="./recipes/spicy-sichuan-chicken-noodles.html" target="_self">Spicy Sichuan Noodles</a></li>
-            <li><a href="./recipes/veg-singaporean-hakka-noodles.html" target="_self">Veg Singaporean Hakka Noodles</a></li>
-        </ul> -->
+        <!-- Quote -->
+        <div class="quote-container">
+            <div class="quote">
+                <div class="main-quote">“You don’t need a silver fork to eat good food.”</div>
+                <div class="author">-Paul Prudhomme</div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer-container">
+            <div class="footer">
+                <div>Copyright</div>
+                <div><i class="fa-regular fa-copyright"></i></div>
+                <div>Hafsa Shaikh 2024</div>
+            </div>
+        </div>
     </body>
 </html>
